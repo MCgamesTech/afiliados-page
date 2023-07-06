@@ -6,21 +6,29 @@ background-color: #333333;
 .content {
   display: flex;
   flex-direction: row;
-  padding-left: 40px;
-}
-
-.text {
-  color: #fff;
-  font-size: 35px;
-  padding-left: 100px;
+  padding: 18px 100px;
+  gap: 226px;
 }
 
 .infos {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding-top: 150px;
 }
 
+.text {
+  color: #fff;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.text2 {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 `

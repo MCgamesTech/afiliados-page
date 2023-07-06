@@ -1,9 +1,5 @@
 import React from 'react';
-import logo from './assets/logo.svg';
-import { Navbar } from './components';
-import { BemVindo } from './components';
-import { Porque } from './components';
-import { DestinoUnico } from './components';
+import { Navbar, BemVindo, Porque, DestinoUnico, Roleta, Entretenimento, Carrossel, Footer } from './components';
 
 function App() {
   return (
@@ -12,6 +8,10 @@ function App() {
       <BemVindo />
       <Porque />
       <DestinoUnico />
+      <Roleta />
+      <Entretenimento />
+      <Carrossel />
+      <Footer />
     </div>
   );
 }
